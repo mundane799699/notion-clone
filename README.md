@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Notion全栈clone
 
-## Getting Started
+![](https://cdn.mundane.ink/202409122107890.png)
+![](https://cdn.mundane.ink/202409122107861.png)
+![](https://cdn.mundane.ink/202409122107931.png)
 
-First, run the development server:
+### 简介
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+这是我跟着b站视频敲的一个练手作品，模仿Notion做的功能。
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+体验地址：
+https://jotion123.vercel.app/
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+https://jotion123.vercel.app/preview/j574z415zv2vv65g9przzms7ys70hvn1
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+b站视频教程地址：
 
-## Learn More
+https://www.bilibili.com/video/BV1ov411F7BX
 
-To learn more about Next.js, take a look at the following resources:
+原视频地址：
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+https://www.youtube.com/watch?v=0OaDyjB9Ib8
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### 技术栈介绍
 
-## Deploy on Vercel
+框架：next.js14
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+ui库：shadcn
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+状态管理：zustand
+
+认证登录：[clerk](https://clerk.com/)
+
+数据库：[convex](https://www.convex.dev/)
+
+图片存储：[edgestore](https://edgestore.dev/)
+
+### 参考代码
+
+https://github.com/loneknight9/notion-clone-tutorial
+
+https://github.com/paperplane110/notion-clone
+
+### 部署
+
+我自己是部署在vercel，基本没什么问题，唯一要注意的是convex，请参考
+
+https://docs.convex.dev/production/hosting/vercel
+
+### 其他
+
+跟着教程做下来基本没什么问题，唯一要注意的是BlockNoteEditor有些更新，请参考https://github.com/paperplane110/notion-clone/blob/main/components/editor.tsx或者看一下https://www.bilibili.com/video/BV1ov411F7BX的评论区。
