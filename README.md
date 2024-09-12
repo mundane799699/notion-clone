@@ -49,4 +49,6 @@ https://docs.convex.dev/production/hosting/vercel
 
 ### 其他
 
-跟着教程做下来基本没什么问题，唯一要注意的是BlockNoteEditor有些更新，请参考https://github.com/paperplane110/notion-clone/blob/main/components/editor.tsx或者看一下https://www.bilibili.com/video/BV1ov411F7BX的评论区。
+跟着教程做下来基本没什么问题，唯一要注意的是BlockNoteEditor有些更新，请参考https://github.com/paperplane110/notion-clone/blob/main/components/editor.tsx
+
+或者看一下https://www.bilibili.com/video/BV1ov411F7BX的评论区。
